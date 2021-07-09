@@ -1,0 +1,146 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Guajolotas"
+        },
+        {
+            "id": 2,
+            "name": "Bebidas"
+        },
+        {
+            "id": 3,
+            "name": "Tamales"
+        }
+    ],
+    "foods": [
+        {
+            "id": 1,
+            "category": 1,
+            "price": 25,
+            "image_main": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855658/Guappjolotas/Guajolotas/Gverde_fvj43l.png",
+            "flavor": "Verde",
+            "image_flavor": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855660/Guappjolotas/Sabores%20comida/verde_jwegyq.png"
+        },
+        {
+            "id": 2,
+            "category": 1,
+            "price": 25,
+            "image_main": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855658/Guappjolotas/Guajolotas/Gmole_zf7yo0.png",
+            "flavor": "Mole",
+            "image_flavor": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855660/Guappjolotas/Sabores%20comida/mole_scfloa.png"
+        },
+        {
+            "id": 3,
+            "category": 1,
+            "price": 25,
+            "image_main": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855658/Guappjolotas/Guajolotas/Gguayaba_dtkoyq.png",
+            "flavor": "Guayaba",
+            "image_flavor": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855659/Guappjolotas/Sabores%20comida/guayaba_mhalti.png"
+        },
+        {
+            "id": 4,
+            "category": 1,
+            "price": 25,
+            "image_main": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855659/Guappjolotas/Guajolotas/Gpi%C3%B1a_etjxwd.png",
+            "flavor": "Piña",
+            "image_flavor": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855660/Guappjolotas/Sabores%20comida/pi%C3%B1a_wdhjbv.png"
+        },
+        {
+            "id": 5,
+            "category": 1,
+            "price": 25,
+            "image_main": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855658/Guappjolotas/Guajolotas/Gpasas_xix3uy.png",
+            "flavor": "Pasas",
+            "image_flavor": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855660/Guappjolotas/Sabores%20comida/pasas_mb8jpx.png"
+        },
+        {
+            "id": 6,
+            "category": 1,
+            "price": 25,
+            "image_main": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625856019/Guappjolotas/Guajolotas/Grajas_kvibrg.png",
+            "flavor": "Rajas",
+            "image_flavor": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855660/Guappjolotas/Sabores%20comida/rajas_kjrobm.png"
+        },
+        {
+            "id": 7,
+            "category": 2,
+            "price": 12,
+            "image_main": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855659/Guappjolotas/Bebidas/champurrado_gy0ufc.png",
+            "flavor": "champurrado",
+            "image_flavor": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855660/Guappjolotas/Sabor%20bebidas/Fchampurrado_rorpik.png"
+        },
+        {
+            "id": 8,
+            "category": 2,
+            "price": 12,
+            "image_main": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855659/Guappjolotas/Bebidas/Arrozconleche_ptyqqg.png",
+            "flavor": "Atole de Arroz con Leche",
+            "image_flavor": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855659/Guappjolotas/Sabor%20bebidas/Farrozconleche_ng59bq.png"
+        },
+        {
+            "id": 9,
+            "category": 2,
+            "price": 12,
+            "image_main": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855658/Guappjolotas/Bebidas/chocolate_nj0ftc.png",
+            "flavor": "Chocolate Caliente",
+            "image_flavor": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855659/Guappjolotas/Sabor%20bebidas/Fchocolate_bjbtsd.png"
+        },
+        {
+            "id": 10,
+            "category": 2,
+            "price": 12,
+            "image_main": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855658/Guappjolotas/Bebidas/cafenegro_azv4hc.png",
+            "flavor": "Café Negro",
+            "image_flavor": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855659/Guappjolotas/Sabor%20bebidas/Fcafenegro_dby2aj.png"
+        },
+        {
+            "id": 11,
+            "category": 3,
+            "price": 14,
+            "image_main": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855661/Guappjolotas/Tamales/Tverde_oce2fm.png",
+            "flavor": "Tamal Verde",
+            "image_flavor": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855660/Guappjolotas/Sabores%20comida/verde_jwegyq.png"
+        },
+        {
+            "id": 12,
+            "category": 3,
+            "price": 14,
+            "image_main": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855661/Guappjolotas/Tamales/Tmole_x1lh2y.png",
+            "flavor": "Tamal de Mole",
+            "image_flavor": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855660/Guappjolotas/Sabores%20comida/mole_scfloa.png"
+        },
+        {
+            "id": 13,
+            "category": 3,
+            "price": 14,
+            "image_main": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855661/Guappjolotas/Tamales/Tguayaba_ua1pqi.png",
+            "flavor": "Tamal de Guayaba",
+            "image_flavor": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855659/Guappjolotas/Sabores%20comida/guayaba_mhalti.png"
+        },
+        {
+            "id": 14,
+            "category": 3,
+            "price": 14,
+            "image_main": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855661/Guappjolotas/Tamales/Tpi%C3%B1a_ryypxb.png",
+            "flavor": "Tamal de Piña",
+            "image_flavor": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855660/Guappjolotas/Sabores%20comida/pi%C3%B1a_wdhjbv.png"
+        },
+        {
+            "id": 15,
+            "category": 3,
+            "price": 14,
+            "image_main": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855661/Guappjolotas/Tamales/Tpasas_p94hq4.png",
+            "flavor": "Tamal de Pasas",
+            "image_flavor": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855660/Guappjolotas/Sabores%20comida/pasas_mb8jpx.png"
+        },
+        {
+            "id": 16,
+            "category": 3,
+            "price": 14,
+            "image_main": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625856444/Guappjolotas/Tamales/Trajas_azisq5.png",
+            "flavor": "Tamal de Rajas",
+            "image_flavor": "https://res.cloudinary.com/dusnjqou6/image/upload/v1625855660/Guappjolotas/Sabores%20comida/rajas_kjrobm.png"
+        }
+    ]
+}
