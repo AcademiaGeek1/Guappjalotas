@@ -1,9 +1,10 @@
 import React from 'react'
+import { FoodList } from './FoodList'
 
 export const TamalesCard = () => {
     return (
         <div>
-            <h1>Tamales card</h1>
+            <FoodList category="3" />
         </div>
     )
 }

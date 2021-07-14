@@ -1,42 +1,37 @@
-import React, { useEffect, useState } from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
+import styled from 'styled-components'
+import { FoodsTitulo } from "../../styles/styles";
+import { FoodsByCategory } from "../selectors/FoodsByCategory";
+import { FoodDetail } from "./FoodDetail";
 
-export const Foods = () => {
-    const [apiState, setApiState] = useState([])
+export const Foods = ({data}) => {
 
-    useEffect(() => {
-        FoodsInfo()
-        console.log("api", apiState)
-    }, [])
-
-    const FoodsInfo = async () => {
-        const url = 'https://my-json-server.typicode.com/AcademiaGeek1/Guappjalotas/foods'
-        const resp = await fetch(url)
-        const data = await resp.json()
-        setApiState(data)
-    }
-
-    return (
-        <div>
-            {
-                apiState.map(food => (
-                    <div key={food.id}>
-                        <div className="card mb-3 ms-4 me-4">
-                            <div className="row g-0">
-                                <div className="col-md-4">
-                                    <img src={food.image_main} className="img-fluid rounded-start" alt="..." />
-                                </div>
-                                <div className="col-md-8">
-                                    <div className="card-body">
-                                        <h5 className="card-title">{food.flavor}</h5>
-                                        <h6>${food.price}MXN</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                ))
-            }
+  return (
+    <div>
+      {data.map((food) => (
+        <div key={food.id}>
+          <Link to={`./food/${food.id}`} style={{textDecoration:'inherit',color:'inherit'}}>
+            <div className="card mb-3 ms-4 me-4">
+              <div className="row g-0">
+                <div className="col-md-4">
+                  <img
+                    src={food.image}
+                    className="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div className="col-md-8">
+                  <div className="card-body">
+                    <FoodsTitulo className="card-title">{food.flavor}</FoodsTitulo>
+                    <h6 className="card-title">${food.price}MXN</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
         </div>
-    )
-}
+      ))}
+    </div>
+  );
+};
