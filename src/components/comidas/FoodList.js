@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FoodsByCategory } from "../selectors/FoodsByCategory";
 import { FoodsById } from "../selectors/FoodsById";
+import { FoodDetail } from "./FoodDetail";
 
 export const FoodList = ({category}) => {
   const [apiState, setApiState] = useState([]);
@@ -24,7 +25,7 @@ export const FoodList = ({category}) => {
       apiState={apiState}
       category={category}
       />
-      <FoodsById apiState={apiState} />
+      <FoodDetail apiState={apiState} />
     </div>
   );
 };

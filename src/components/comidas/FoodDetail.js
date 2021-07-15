@@ -3,11 +3,11 @@ import { useParams } from 'react-router-dom'
 import { FoodsById } from '../selectors/FoodsById'
 import { FoodList } from './FoodList'
 
-export const FoodDetail = () => {
+export const FoodDetail = ({apiState}) => {
     const {foodId} = useParams()
-    console.log("parametro",foodId)
-    const food = FoodsById({foodId})
-
+    
+    const food = FoodsById(foodId,apiState)
+    // console.log("parametro food",food)
     return (
         <div>
             <h1>Detalles</h1>
